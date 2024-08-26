@@ -15,7 +15,7 @@ This C++ program tracks and manages shared expenses among people. It allows you 
 
 ### Usage
 
-- **Load Transactions**: Import from a file or input manually (use resa.txt in txt_files folder for correct formatting.
+- **Load Transactions**: Import from a file or input manually (use resa.txt in txt_files folder for correct formatting).
 - **Menu Options**: View transactions, calculate totals, and check individual balances.
 
  <br />
@@ -33,7 +33,7 @@ This C++ program analyzes the frequency distribution of letters in a given text 
 - **Mathematics**: Computes squared differences between actual and expected letter distributions to infer the most likely language.
 
 ### Usage
-- **Input**: Provide the filepath of the text file/text folder to be analyzed (You can use the example .txt-files in the txt_files/language_txt folder or any tof your choosing).
+- **Input**: Provide the filepath of the text file/text folder to be analyzed (You can use the example .txt-files in the txt_files/language_txt folder or any txt file of your choosing).
 - **Output**: The program displays the letter frequency distribution, compares it to predefined language profiles, and outputs the most probable language along with squared differences for each language.
 
  <br />
