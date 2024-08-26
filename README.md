@@ -31,5 +31,9 @@ This C++ program analyzes the frequency distribution of letters in a given text 
 - **String and Character Processing**: Converts characters to uppercase and calculates frequency distributions.
 - **Mathematics**: Computes squared differences between actual and expected letter distributions to infer the most likely language.
 
+### Usage
+- **Input**: Provide the filepath of the text file/text folder to be analyzed.
+- **Output**: The program displays the letter frequency distribution, compares it to predefined language profiles, and outputs the most probable language along with squared differences for each language.
+
 
 
