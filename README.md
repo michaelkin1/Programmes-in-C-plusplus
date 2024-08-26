@@ -15,7 +15,7 @@ This C++ program tracks and manages shared expenses among people. It allows you 
 
 ### Usage
 
-- **Load Transactions**: Import from a file or input manually.
+- **Load Transactions**: Import from a file or input manually (use resa.txt in txt_files folder for correct formatting.
 - **Menu Options**: View transactions, calculate totals, and check individual balances.
 
  <br />
@@ -33,8 +33,27 @@ This C++ program analyzes the frequency distribution of letters in a given text 
 - **Mathematics**: Computes squared differences between actual and expected letter distributions to infer the most likely language.
 
 ### Usage
-- **Input**: Provide the filepath of the text file/text folder to be analyzed.
+- **Input**: Provide the filepath of the text file/text folder to be analyzed (You can use the example .txt-files in the txt_files/language_txt folder or any tof your choosing).
 - **Output**: The program displays the letter frequency distribution, compares it to predefined language profiles, and outputs the most probable language along with squared differences for each language.
 
+ <br />
 
+ 
+## 3. Slot Machine Simulation
+
+This C++ program simulates a slot machine game. It allows users to deposit money, place bets, and spin the slot machine to win based on randomly generated symbols.
+
+### Key Features
+- **Grid Generation:** Uses the `generate_symbols` function to fill a 3x3 grid with random symbols (A, O, X).
+- **Board Display:** Utilizes the `print_board` function to show the current state of the slot machine grid.
+- **Winning Calculation:** Employs the `count_winning_lines` function to determine the number of winning lines (horizontal, vertical, diagonal).
+- **Winnings Calculation:** The `calculate_winnings` function computes payouts based on the number of winning lines and the bet amount.
+- **Game Loop:** Manages the game flow, including user input for deposit, bet amount, and choice to continue or exit.
+
+### Usage
+- **Start the Game:** Deposit an amount and place a bet.
+- **Play:** The slot machine generates a random grid, and winnings are calculated based on the symbols.
+- **Repeat or Exit:** Users can choose to play again or end the game, with the balance updated after each round.
+
+This game continues until the user decides to stop playing or runs out of money.
 
