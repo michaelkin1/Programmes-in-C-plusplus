@@ -1,7 +1,7 @@
 # Programmes in C++
 This repository contains C++ programmes from my assignments at the university level courses "Computers and Programming" and "Basic Programming in C++" at Uppsala University and University of Skövde respectively.
 
-## Expense Tracker
+## 1. Expense Tracker
 
 This C++ program tracks and manages shared expenses among people. It allows you to record transactions, calculate total costs, and determine how much each person owes or has advanced.
 
@@ -18,8 +18,8 @@ This C++ program tracks and manages shared expenses among people. It allows you 
 - **Load Transactions**: Import from a file or input manually.
 - **Menu Options**: View transactions, calculate totals, and check individual balances.
 
-
-## Language Detection Program
+/n
+## 2. Language Detection Program
 
 This C++ program analyzes the frequency distribution of letters in a given text file to determine the most likely language among four predefined options: English, French, Swedish, and German. 
 
