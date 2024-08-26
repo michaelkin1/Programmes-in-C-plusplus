@@ -19,6 +19,7 @@ This C++ program tracks and manages shared expenses among people. It allows you 
 - **Menu Options**: View transactions, calculate totals, and check individual balances.
 
  <br />
+ 
 ## 2. Language Detection Program
 
 This C++ program analyzes the frequency distribution of letters in a given text file to determine the most likely language among four predefined options: English, French, Swedish, and German. 
